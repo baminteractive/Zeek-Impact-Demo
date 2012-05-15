@@ -1,0 +1,11 @@
+ig.module(
+	'game.entities.follower'
+)
+.requires(
+	'impact.entity'
+)
+.defines(function(){
+
+EntityFollower = ig.Entity.extend({
+
+});

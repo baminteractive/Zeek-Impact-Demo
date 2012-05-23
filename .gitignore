@@ -41,3 +41,9 @@ npm-debug.log
 #Azure
 local_package.csx
 *.cspkg
+
+#impact
+impact
+tools
+weltmeister
+weltmeister.html

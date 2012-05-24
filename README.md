@@ -1,9 +1,9 @@
 Zeek Impact Demo Game
 ===
 
-Zeek is an Impact demo game created by [Bradley and Montgomery](http://bamideas.com "Bradley and Montgomery"). The game is simple platformer in a similar style to [Super Marios Bros.](http://en.wikipedia.org/wiki/Super_Mario_Bros. "Super Marios Bros.")
+Zeek is an [Impact](http://impactjs.com "Impact HTML5 Game Engine") demo game created by [Bradley and Montgomery](http://bamideas.com "Bradley and Montgomery"). The game is simple platformer in a similar style to [Super Marios Bros.](http://en.wikipedia.org/wiki/Super_Mario_Bros. "Super Marios Bros.")
 
-The game illustrates various basic features of the [Impact](http://impactjs.com "Impact HTML5 Game Engine") library such as:
+The game illustrates various basic features of the Impact library such as:
 
 - Jumping/crouching
 - Camera movement
@@ -14,10 +14,10 @@ The game illustrates various basic features of the [Impact](http://impactjs.com 
 - Projectiles
 - Collisions
 - Plugin creation
-- HUD
-- Weltmeister
+- HUD w/ health and score
+- Weltmeister-friendly level
 
-Only the game source is provided in this repository. An [Impact](http://impactjs.com "Impact HTML5 Game Engine") license must be purchased to run the game.
+Only the game source is provided in this repository. An Impact license must be purchased to run the game.
 
 This game is meant for demonstration purposes only.
 

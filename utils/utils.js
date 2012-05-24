@@ -1,7 +1,11 @@
+/*global browser:true, log:true, console:true*/
+
 // Figure out how to move this into impact
-window.log=function(){log.history=log.history||[];log.history.push(arguments);if(this.console){console.log(Array.prototype.slice.call(arguments))}};
+window.log=function(){"use strict";log.history=log.history||[];log.history.push(arguments);if(this.console){console.log(Array.prototype.slice.call(arguments));}};
 
 String.prototype.addCommas = function(){
+
+	"use strict";
 
 	//this += '';
 	var x = this.split('.'),
@@ -12,27 +16,35 @@ String.prototype.addCommas = function(){
 	while (rgx.test(x1)) {
 		x1 = x1.replace(rgx, '$1' + ',' + '$2');
 	}
- 	
- 	return x1 + x2;
-}
+
+	return x1 + x2;
+};
 
 Number.prototype.addCommas = function(){
+
+	"use strict";
+
 	// Convert to a string and add commas
 	return String(this).addCommas();
-}
+};
 
 angleTo = function( x1, y1, x2, y2 ) {
+
+	"use strict";
+
 	return Math.atan2(
 		(y2 - y1),
 		(x2 - x1)
 	);
-}
+};
 
 //Fallback functionality for non EC5 browsers
 if (!Object.keys) {
     Object.keys = function (obj) {
-        var keys = [],
-            k;
+
+		"use strict";
+
+		var keys = [], k;
         for (k in obj) {
             if (Object.prototype.hasOwnProperty.call(obj, k)) {
                 keys.push(k);
